@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    background-color: #1A1A1A;
+}
+
+.anuncio{
+    background-color: #F4FE80;
+}
+
+.anuncio p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav{
+    display: none;
+}
+
+header div a{
+    display: none;
+}
+
+header{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+header div img{
+    width: 35px;
+}
+
+.container-charla{
+    
+    display: flex;
+    padding: 10px;
+    margin: 15px auto;
+    border: 1px solid gray;
+    width: 50%;
+}
+
+.container-charla p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+main section h1{
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+main section h1 span{
+    color: yellow;
+}
+
+main section p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+main section div {
+    display: flex;
+    justify-content: center;
+}
+
+.enlace{
+    border-radius: 5px;
+    padding: 15px 70px;
+    background-color: #CFE301;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* medias queries */
+
+/* @media only screen and (max-width: 425px){
+    body{
+        background-color: #1A1A1A;
+    }
+} */
+
+
+/* hasta tablet */
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    body{
+     
+    }
+}
+
+
+/* desktop en adelante */
+@media only screen and (min-width: 1024px){
+    body{
+     
+    }
+
+    header{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header nav{
+        display: block;
+    }
+
+    header div a{
+        margin-right: 15px;
+        display: block;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    header div {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav ul{
+        display: flex;
+        list-style-type: none;
+    }
+    header nav ul li a{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    main section h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    main section p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,235 @@
+/* ELEMENTO{ 
+    propiedad: valor;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+     background-color: #1A1A1A; 
+}
+
+.body-contacto{
+    background-color: green;
+}
+
+p{
+    color: white;
+
+    text-align: center;
+
+    /* ALTO */
+    height: 50px;
+    /* ANCHO */
+
+
+    /* MARGIN */
+    margin-bottom: 55px;
+    margin-left: 50px;
+
+    /* CAMBIAR NATURALEZA  */
+
+    display: block;
+
+}
+
+
+h1{
+    /* Propiedades para el contenido */
+    color: white;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1 span{
+    color: yellow;
+    display: inline;
+}
+
+#section-principal p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+
+
+
+
+.boton{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D4E761;
+    text-transform: uppercase;
+    /* PROPIEDAD PADDING (RELLENO INTERNO) */
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+    /* PADDING EN LOS CUATROS */
+    padding: 25px;
+    /* PADDING SUPERIOR - INFERIOR | LATERALES */
+    padding: 10px 15px;
+    /* PADDING INDEPENDIENTE */
+    padding: 18px;
+
+    /* BORDE REDONDEADO */
+    border-radius: 2px;
+
+    position: sticky;
+    top: 15px;
+}
+
+.boton-01{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid white;
+    padding: 25px;
+    border-radius: 5px;
+
+    
+
+}
+
+header{
+    /* BORDER */
+    border: 1 tipo de borde 3 ;
+    /* BORDE EN LOS CUATROS LADOS */
+    /* border: 4px dotted red; */
+
+    border-bottom: 2px solid #2D2E36;
+    background-color: #1A1A1A; 
+    
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+header ul li a{
+    color: white;
+    background-color: #1A1A1A;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header img{
+    width: 10rem;
+}
+
+
+/* boton-plataforma */
+header .boton-plataforma{
+    display: flex;
+    align-items: center;
+}
+
+header .boton-plataforma img{
+    width: 25px;
+}
+
+header .boton-plataforma a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.anuncio{
+    background-color: #F4FE80;
+    padding: 5px;
+}
+.anuncio p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+
+.position{
+
+    /* POSITION */
+    position: fixed;
+
+    right: 15px;
+    bottom: 35px;
+
+    /* 4 LADOS - LEFT - RIGHT - TOP - BOTTOM */
+}
+
+.contenedor-tutores{
+    margin-top: 6rem;
+    background-color: #FFFFFF;
+    width: 50%;
+    padding: 15px;
+    margin-left: 3rem;
+    border-radius: 5px;
+}
+
+.contenedor-tutores p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: black;
+    text-align: start;
+    margin-left:0 ;
+    margin-bottom: 10px;
+}
+
+.contenedor-tutores h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contenedor-tutores .tutor-01{
+    border-radius: 100%;
+    width: 50px;
+
+    /* position */
+    position: relative;
+    left: 100%;
+    bottom: 40px;
+}
+
+.contenedor-tutores .tutor{
+    border-radius: 100%;
+    width: 50px;
+
+    /* position */
+    position: relative;
+    bottom: 75px;
+    left: 60px;
+}
+
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-imagenes{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.contenedor-imagenes img{
+    width: 30%;
+}

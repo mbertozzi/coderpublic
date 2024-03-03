@@ -1,0 +1,48 @@
+/*
+
+selector o elemento{ propiedad : valor} etiqueta
+
+ul {color : pink} de esta forma todos los ul van a ser rosa
+
+
+class = clase, multiple uso
+calss="rosa"
+en html, ul class="rosa", se declara la clase en cada elemento,  css lo voy a tener .rosa {color: pink}
+
+Otra forma con id
+
+en html, <ul id:"rosa"   en css  #rosa{color: pink}
+los id son unicos, no puedo usar rosa para mas de 1 elemento
+
+
+cascada
+
+id mata clase
+clase mata etiqueta
+
+el que mata todo es
+!import 
+
+.rosa {color: pink!import}
+
+
+
+
+*/
+
+h1{
+    background-color: blue;
+}
+
+h1 span.encabezadoPrincipalSpan{
+    background-color: red;
+}
+.encabezadoIndex{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.encabezadoNosotros {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aquamarine;
+}

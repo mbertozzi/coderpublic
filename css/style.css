@@ -104,6 +104,17 @@ header .menu a{
     text-decoration: none;
     margin-right: 10px;
 }
+.galeria{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.galeria img {
+    padding: 15px;
+    align-items: center;
+}
 .redesSociales {
     margin-top: 4rem;
 }

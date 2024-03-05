@@ -116,6 +116,13 @@ header .menu a{
     align-items: center;
 }
 .redesSociales {
+    display: flex;
     margin-top: 4rem;
+    padding: 10px;
+    justify-content:space-around;
+    
 }
- 
+ .redesSociales img{
+    width:3rem;
+    height: 3rem;
+ }

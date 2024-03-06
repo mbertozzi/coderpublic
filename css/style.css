@@ -1,13 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 
 body {
-    background:linear-gradient(blue,white)
+   background-color:white	;
 }
-
+body h1  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-style:italic;
+    font-weight: bold;
+}
 li {
 
   text-decoration: none;
@@ -42,12 +51,15 @@ header{
     border-bottom: 2px solid black;
     position: sticky;
     top: 1px;
-    background-color: yellow;
+    background-color: grey;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 5px;
    
+}
+body main section p{
+    margin: 15px;
 }
 header a{
     text-decoration: none;
@@ -125,4 +137,162 @@ header .menu a{
  .redesSociales img{
     width:3rem;
     height: 3rem;
+ }
+
+ .grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,1fr);
+    grid-template-rows:  repeat(4,200px);
+    /*
+    row-gap: 10px;
+    column-gap: 10px;
+    */
+
+    margin: 10px;
+    gap: 15px;
+    align-items:safe
+
+ }
+
+
+ .grid-item-01{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+
+ }
+
+ .grid-item-01 img{
+    align-self: center;
+    width: 18rem;
+    
+   
+    
+ }
+ .grid-item-01 p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    
+ }
+
+.grid-item-02 {
+    
+    grid-row: 1/3;
+    grid-column: 3/5;
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.grid-item-02 img{
+    justify-content: center;
+    width: 18rem;
+  
+
+   
+    
+ }
+.grid-item-02 p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+   
+    
+ }
+
+.grid-item-03{
+    background-color:white;
+    padding: 2rem;
+    border-radius: 5px;
+    grid-row: 3/5;
+    grid-column: 1/3
+
+}
+.grid-item-03 img{
+    justify-content: center;
+    width: 18rem;
+    con
+}
+.grid-item-03 p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;  
+ }
+
+.grid-item-04 {
+    background-color:white;
+    padding: 2rem;
+    border-radius: 5px;
+    grid-row: 3/5;
+    grid-column: 3/5
+
+} 
+.grid-item-04 img{
+    align-content: center;
+    width: 18rem;
+}
+.grid-item-04 p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+   
+    
+ }
+
+ .card{
+    background-color: white;
+    width: 250px;
+    padding: 13px;
+    margin: 10px;
+ }
+
+ .flex{
+    display: flex;
+ }
+
+ 
+ @media screen and (max-width: 600px) {
+
+.grid-item-01{
+        grid-column: 1/3;
+        grid-row: 1/3;
+        background-color:white;
+        padding: 10px;
+        border-radius: 5px;
+    
+}
+
+.grid-item-02 {
+    
+    grid-row: 3/5;
+    grid-column: 1/3;
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grid-item-03{
+    background-color:white;
+    padding: 2rem;
+    border-radius: 5px;
+    grid-row: 5/7;
+    grid-column: 1/3
+
+}
+.grid-item-04 {
+    background-color:white;
+    padding: 2rem;
+    border-radius: 5px;
+    grid-row: 7/9;
+    grid-column: 1/3
  }

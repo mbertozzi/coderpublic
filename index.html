@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
     <header class="encabezado">
         <a href="./index.html"> <img src="./img/milogo.png" alt="Mi empresa logo" class="miLogo"></a>
@@ -18,7 +23,7 @@
                 <li><a href="./page/comunidad.html">Comunidad</li></a>
                 <li><a href="./page/informacion.html">Informacion</li></a>
             </ul>
-           
+
         </nav>
         <div class="menu">
             <a href="#">Menu</a>
@@ -28,52 +33,64 @@
 
     <main>
         <section>
-            <h1>Novedades</h1>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloribus ab, exercitationem dolore
-                cupiditate optio, quo aut a culpa qui nemo saepe quia molestiae aspernatur, inventore magni ex eligendi
-                sequi.
-                Expedita amet, error voluptatem molestiae nam repudiandae et! Necessitatibus qui nostrum aspernatur
-                animi ipsam at exercitationem illo, modi officia ipsum tempora eos corrupti tenetur ipsa tempore dolor
-                aliquam suscipit similique.
-                Sit cupiditate dolore, laudantium atque vero ab officia libero possimus minima incidunt obcaecati
-                reiciendis aliquam, impedit quaerat dignissimos voluptate sequi ipsa magni? Tenetur id sint iste nostrum
-                odio eligendi incidunt?
-                Est itaque maxime tempore iste. Quod harum, porro doloremque voluptatibus blanditiis exercitationem
-                sapiente, beatae voluptas quos laboriosam, vitae veritatis necessitatibus nostrum fugit eaque fugiat
-                totam officiis? Harum aliquam ratione cumque!
-                Perferendis autem optio quos, nisi adipisci doloremque, velit officia illo, animi corporis asperiores.
-                Quasi, dolorem. Sapiente aliquam officia unde ab numquam vel atque, praesentium asperiores consequuntur
-                neque rem error quidem.
-                Earum nulla deleniti eligendi quos. Nisi sequi, delectus a, neque, suscipit possimus et rerum voluptas
-                iste eum similique aut quos quo commodi consequatur adipisci quae hic fugiat nihil! Repudiandae,
-                quaerat.
-                Earum, suscipit officiis? Fuga dolorum cum provident accusamus perspiciatis sequi minima mollitia fugit
-                laudantium itaque blanditiis deserunt natus ducimus numquam quis deleniti veritatis beatae quasi,
-                dolores in, aliquam ipsum possimus.
-                Nobis facere maxime explicabo culpa delectus doloribus asperiores. Enim officia soluta dignissimos illum
-                asperiores natus animi error, accusantium provident totam, reprehenderit nulla aperiam at in? Sunt dicta
-                eos nihil nemo.
-                Tempore beatae provident quia quam debitis explicabo quae, porro atque cum sequi adipisci fugiat aliquam
-                quasi placeat itaque, voluptas libero. Amet saepe esse recusandae laudantium voluptatibus. Nostrum
-                consectetur esse velit.
-                Officiis, iste voluptate? Obcaecati autem accusamus sit. Dolore at eaque eos ipsa ratione aut iusto
-                consequatur fugiat vero, ea optio quis explicabo. Eius voluptas animi suscipit fugit fuga dignissimos
+            <h1 class="text-center display-3">Novedades</h1>
+            <img src="./img/apple.jpg" class="ounded mx-auto d-block" alt="Apple">
+            <p>Dibuja, pinta y escribe con el Apple Pencil. Y ponte manos a la obra con el Magic Keyboard Folio y su
+                genial diseño de dos piezas.2 Puedes usar los atajos de teclado que ya conoces y hacer clic en cualquier
+                parte del trackpad. Comodidad con todas sus letras
                 id.</p>
         </section>
-        <section>
-            <div>
-                <a href="#" class="boton">Aceptar</a>
-            </div>
-        </section>   
-        
-        <section class="galeria">
-            <img src="/img/notebook1.jpg" alt="">
+        <section class="galeria flex-wrap"">
+            <img src=" /img/notebook1.jpg" class=alt="">
             <img src="/img/notebook2.jpg" alt="">
             <img src="/img/notebook3.jpg" alt="">
-        
+
         </section>
-        
+
+        <section class="d-flex d-flex justify-content-evenly d-flex flex-wrap">
+            <div class="card" style="width: 18rem;">
+                <img src="/img/notebook1.jpg" class="card-img-top" alt="notebook1">
+                <div>
+                    <h5 class="card-title">Ofertas de laptops empresariales</h5>
+                    <p class="card-text">1080P FHD con obturador para privacidad y micrófono integrado Gráficos Intel®
+                        Iris® Xe integrados 1 TB SSD M.2 2280 PCIe Gen4 Performance TLC Opal </p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="/img/notebook2.jpg" class="card-img-top" alt="notebook1">
+                <div>
+                    <h5 class="card-title">Ofertas de laptops 2 en 1</h5>
+                    <p class="card-text">Procesador Intel® Core™ i7-1355U de 13ᵃ Generación (núcleos E de hasta 3,70 GHz
+                        núcleos P de hasta 5,00 GHz)
+                        Windows 11 Pro 64
+                        16 GB LPDDR5-6400MHz (soldado)
+                    </p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+
+            </div>
+
+            <div class="card" style="width: 20rem;">
+                <img src="/img/notebook3.jpg" class="card-img-top" alt="notebook1">
+                <div>
+                    <h5 class="card-title">Ofertas de laptops para juegos</h5>
+                    <p class="card-text">Con certificación Intel® Evo™ con hasta Intel® vPro®
+                        El doble de memoria y almacenamiento que la generación anterior
+                        Impresionante opción de pantalla hasta OLED de alta resolución con certificación Eyesafe®
+                        Cuatro micrófonos de 360 grados con cancelación de ruido basada en IA y Dolby Voice®
+                    </p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
     </main>
 
     <footer>
@@ -83,9 +100,9 @@
                     alt="logo de instagram"></a>
             <a href="http://www.twitter.com/" target="_blank"> <img src="./img/twitter-logo.svg"
                     alt="logo de twitter"></a>
-            <a href="http://www.facebook.com/" target="_blank"> <img src="./img/facebook.png" alt="logo de facebook"></a>
-            <a href="http://www.whatsapp.com/" target="_blank"> <img src="./img/whatsapp.png"
-                        alt="logo de twitter"></a>
+            <a href="http://www.facebook.com/" target="_blank"> <img src="./img/facebook.png"
+                    alt="logo de facebook"></a>
+            <a href="http://www.whatsapp.com/" target="_blank"> <img src="./img/whatsapp.png" alt="logo de twitter"></a>
         </div>
         <h5>copyright &copy;MAB 2024</h5>
         <div>
@@ -94,5 +111,9 @@
             </a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

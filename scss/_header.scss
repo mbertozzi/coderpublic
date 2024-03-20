@@ -1,0 +1,27 @@
+ /*$variable: algo;
+
+@mixin estiloTexto ($family, $size) {
+    font-family:$family;
+    font-size:$size;
+  }
+
+@mixin flex ($flex, $espacio, $alinear) {
+    display:$flex;
+    justify-content: $espacio;
+   align-items: $alinear;
+}
+
+
+header {
+    a{
+        @include estiloTexto(Arial,15);
+        @include flex(flex, space-around,center);
+
+    }
+}
+*/
+
+header{
+
+
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+
+    .grid-item-01 {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+
+    }
+
+    .grid-item-02 {
+
+        grid-row: 3/5;
+        grid-column: 1/3;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .grid-item-03 {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 5px;
+        grid-row: 5/7;
+        grid-column: 1/3;
+    }
+
+    .grid-item-04 {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 5px;
+        grid-row: 7/9;
+        grid-column: 1/3;
+    }
+}

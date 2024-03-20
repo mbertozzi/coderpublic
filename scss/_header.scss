@@ -21,7 +21,58 @@ header {
 }
 */
 
-header{
+ header {
+     border-bottom: 2px solid black;
+     position: sticky;
+     top: 1px;
+     background-color: grey;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 5px;
+
+     a {
+         text-decoration: none;
+         margin: 10px;
+
+         img {
+             width: 60px;
+         }
+     }
 
 
-}
+     .menu {
+         display: flex;
+         align-items: center;
+
+         img {
+             width: 20px;
+         }
+
+         a {
+             font-family: Arial, Helvetica, sans-serif;
+             text-decoration: none;
+             margin-right: 10px;
+         }
+
+
+     }
+
+
+     nav {
+         ul {
+             list-style-type: none;
+             display: flex;
+
+             a {
+                 text-decoration: none;
+                 margin: 10px;
+
+                 img {
+                     width: 60px;
+                 }
+             }
+         }
+     }
+
+ }

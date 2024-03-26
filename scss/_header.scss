@@ -25,11 +25,14 @@ header {
      border-bottom: 2px solid black;
      position: sticky;
      top: 1px;
-     background-color: grey;
+     background-color: white;
      display: flex;
      justify-content: space-around;
      align-items: center;
      padding: 5px;
+     caja-escava: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 10px 10px 5px 0px 0px rgba(0, 0, 0, 0.75);
 
      a {
          text-decoration: none;

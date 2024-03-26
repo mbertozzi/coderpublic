@@ -137,8 +137,7 @@ header .menu a{
 
     margin: 10px;
     gap: 15px;
-    align-items:safe
-
+    align-items:center;
  }
 
 
@@ -155,7 +154,7 @@ header .menu a{
 
  .grid-item-01 img{
     align-self: center;
-    width: 18rem;
+    width: 2rem;
     
    
     
@@ -182,10 +181,7 @@ header .menu a{
     justify-content: center;
     width: 18rem;
   
-
-   
-    
- }
+    }
 .grid-item-02 p {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -205,7 +201,7 @@ header .menu a{
 }
 .grid-item-03 img{
     justify-content: center;
-    width: 18rem;
+    width: 200rem;
 
 }
 .grid-item-03 p {
